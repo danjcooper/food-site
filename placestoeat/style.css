@@ -1,0 +1,13 @@
+header {
+  background: blue !important;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    position: static;
+    display: block;
+  }
+  body {
+    background-color: aquamarine;
+  }
+}
